@@ -1,0 +1,308 @@
+
+
+
+#title{
+  background-color: green;
+  /* opacity: 0.8; */
+  /* margin: 100px; */
+}
+
+.shadow{
+  width: 300px;
+  height: 100px;
+  padding: 15px;
+  /* background-color: gray; */
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.maintitle{
+  /* font-style: italic; */
+  font-family:"Montserrat-black";
+  font-size: 5rem;
+  line-height: 1.5;
+  color:white;
+  padding-bottom: 80px;
+
+}
+.container-fluid{
+  padding:100px 130px;
+}
+
+.color1{
+  color: black;
+}
+.firstdog{
+  width:30%;
+  height: 79%;
+  /* width:350px; */
+  margin-top: 20px;
+  border-radius: 15px;
+  transform: rotate(10deg);
+
+  position:absolute;
+  right:182px;
+}
+
+.space1{
+  padding-right: 420px;
+  padding-bottom: 50px;
+  /* padding-top: 5px; */
+  font-size: 3rem;
+  font-family: sans-serif;
+  font-style: italic;
+  font-weight: bold;
+
+}
+/* ul li{
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  height: 70px;
+} */
+
+.nav-item{
+  padding: 10px 50px;
+  font-size: 1.2rem;
+  height: 70px;
+}
+.nav-link{
+  font-size: 1.2rem;
+
+}
+
+.upload-button{
+  margin-right: 40px;
+}
+
+/*second section  */
+#features{
+  /* background-color: #AFEEEE; */
+  background-color: white;
+  /* display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 100px; */
+  position:relative;
+  z-index: 1;
+}
+
+.container{
+  padding: 100px 0px 100px 200px;
+
+
+
+}
+/*
+.easy{
+  padding: 20px 40px;
+}
+*/
+.fa-check-circle{
+  font-size: 40px;
+  color: red;
+  margin-left: 40px;
+  margin-bottom: 5px;
+}
+
+.fa-check-circle:hover{
+  color: green;
+
+}
+
+.fa-bullseye{
+  font-size: 40px;
+  color: red;
+  margin-left: 40px;
+  margin-bottom: 5px;
+}
+.fa-bullseye:hover{
+  color: green;
+}
+.fa-heart{
+  font-size: 40px;
+  color: red;
+  margin-left: 40px;
+  margin-bottom: 5px;
+}
+.fa-heart :hover{
+  color: green;
+}
+
+.justification-p{
+  width:50%;
+}
+h3{
+  font-family: "Montserrat-black";
+  font-weight: bold;
+}
+p{
+  color:#8f8f8f;
+}
+
+
+/* section testimonials */
+#testimonials{
+  /* padding: 7% 15%; */
+  text-align: center;
+  background-color: green;
+  /* opacity: 80%; */
+  color:white;
+
+}
+h2{
+  /* font-weight: bold; */
+  font-family: "Montserrat-Bold";
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+
+.testimonial-image{
+  width: 30%;
+  border-radius: 60%;
+  padding: 30px;
+}
+em{
+  font-size: 25px;
+  color: black;
+  text-shadow: 2px 2px 8px #FF0000;
+}
+
+.imagesize{
+  width: 80%;
+  height: 40%;
+  border-radius: 60%;
+}
+
+/*  */
+#press{
+  background-color: green;
+  text-align: center;
+  padding: 30px;
+}
+
+.pressimage{
+  width: 23%;
+  /*       T    L&R  B */
+  margin: 20px 20px 50px;
+}
+.testimonial-image1{
+  border-radius: 60%;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.text-height{
+    height: 200px;
+}
+
+/* pricing */
+#pricing{
+  background-color: #F0FFFF;
+  padding: 30px 20px;
+}
+.title-pricing{
+  text-align: center;
+  font-style: italic;
+  font-family: "Montserrat-Bold"
+}
+.paddo{
+  padding: 30px 10px;
+}
+#cta{
+  background-color: #FF69B4;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.ctah3{
+  font-size: 3rem;
+  margin-bottom: 50px;
+  font-family: "Montserrat-black"
+}
+.lastf{
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+}
+.icons{
+  font-size: 20px;
+  text-align: center;
+}
+
+.fa-facebook-f{
+  margin:30px 10px 10px;
+  color: blue;
+}
+.fa-twitter{
+  margin:30px 10px 10px;
+  color: blue;
+
+}
+
+
+
+
+@media(max-width: 1000px) {
+
+  .maintitle{
+    /* font-style: italic; */
+    font-family:"Montserrat-black";
+    font-size: 2.2rem;
+    color:white;
+    padding-bottom: 60px;
+  }
+
+  #title{
+    text-align: center;
+
+  }
+
+  .firstdog{
+    width:80%;
+    height: 90%;
+    margin-top: 40px;
+    border-radius: 15px;
+    position: static;
+    transform: rotate(0);
+  }
+
+  #features {
+    /* background-color: #AFEEEE; */
+    background-color: white;
+    /* display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px; */
+    /* position:relative;
+    z-index: 1; */
+
+  }
+  .shadow{
+  }
+
+  .space1{
+    margin-right: 0;
+    padding-right: 0px;
+    padding-bottom: 50px;
+    /* padding-top: 5px; */
+    font-size: 3rem;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: bold;
+
+  }
+
+  .upload-button{
+    margin-right: 0px;
+    margin-bottom: 0px;
+  }
+.testoh2{
+  font-size: 2rem;
+  /* height: 140px; */
+}
+.text-height{
+  height: 100px;
+  font-size: 2rem;
+}
+
+}
